@@ -20,7 +20,7 @@ const Leadership = () => {
                 <br/>
                 <div className="row"> 
                 <div className="col d-lg-inline align-self-center">
-                  <p className="lead text-left">
+                  <p className="lead text-center">
                       Throughout my career, I've been extremely grateful to have opportunities to lead my peers
                       and make an impact on the community. During my role in <b>Wipro</b>, I cultivated a culture of
                       inclusivity, collaboration, and ambition through leading new-member and helping them grow with mentoring
@@ -33,13 +33,13 @@ const Leadership = () => {
                  </p>  
               </div>
               
-                <div className="col d-lg-inline align-self-center">
+        {/*   <div className="col d-lg-inline align-self-center">
                 
                 <Carousel>
-                {/* </div>
+                 </div>
                 </div>
                 <div className="row"> 
-                <div className="col d-none d-lg-inline align-self-center"> */}
+                <div className="col d-none d-lg-inline align-self-center">
                 <Carousel.Item>
                   <img
                     className="rounded"
@@ -48,16 +48,16 @@ const Leadership = () => {
                     width="600"
                     height="400"
                   /> 
-                  {/* <Carousel.Caption>
+                   <Carousel.Caption>
                 <h2>Student Engineering Council Service Director</h2>
                 <h5>Promoted student involvement in the community through volunteering and philanthropy.</h5>
-                </Carousel.Caption> */}
+                </Carousel.Caption>
                   </Carousel.Item>
-                {/* </div>
-                </div> */}
-                {/* <div className="row"> 
-                <div className="col d-none d-lg-inline align-self-center"> */}
-                {/* <Carousel.Item>
+                 </div>
+                </div>
+                 <div className="row">
+                <div className="col d-none d-lg-inline align-self-center">
+                 <Carousel.Item>
                   <img
                     className="rounded"
                     src={Code}
@@ -65,9 +65,9 @@ const Leadership = () => {
                     width="300"
                     height="475"
                   /> 
-                  </Carousel.Item> */}
-                {/* </div>
-                </div> */}
+                  </Carousel.Item>
+                 </div>
+                </div>
                 <Carousel.Item>
                   <img
                     className="rounded"
@@ -96,8 +96,8 @@ const Leadership = () => {
                   /> 
                   </Carousel.Item>
                 </Carousel>
-              </div>
-              </div>
+              </div> */}
+                </div>
             </div>
           </div>
       </div>
