@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">Anurag Vaidhya's Personal Website ✨</h1>
   <p align="center">
-    The personal website/portfolio of Anurag, hosted with GitHub Pages using custom domain. Built using React and Bootstrap. Site URL / Demo:
+    The personal website/portfolio of Anurag Vaidhya, hosted with GitHub Pages using custom domain. Built using React and Bootstrap. Site URL / Demo:
     <a href="https://anuragvaidhya.com">anuragvaidhya.com</a>
     <br />
   </p>
