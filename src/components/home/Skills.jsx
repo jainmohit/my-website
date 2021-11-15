@@ -22,38 +22,44 @@ return (
                 <div className="row">
                 <div className="col">
                 <br/>
-                  <p className="lead">Agile/Lean Methodologies
+                  <p className="lead">Agile/Lean/Waterfall Methodologies
                   <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">JavaScript
+                  <p className="lead">Node JS
                   <ProgressBar now={87} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">C#
-                  <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
+                  <p className="lead">Java
+                  <ProgressBar now={85} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">C/C++
+                  <p className="lead">Bash Scripting
                   <ProgressBar now={70} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                  <p className="lead">Python
-                  <ProgressBar now={60} style={{width:'490px', backgroundColor:'white'}}/>
+                  <p className="lead">Testing
+                  <ProgressBar now={95} style={{width:'490px', backgroundColor:'white'}}/>
+                  </p>
+                  <p className="lead">Automation Testing (UI/API)
+                    <ProgressBar now={95} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
               </div>
               <div className="col">
               <br/>
-                <p className="lead">Java
+                <p className="lead">Continous Integration/Continuos deployment
                 <ProgressBar now={90} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
-                <p className="lead">HTML/CSS
+                <p className="lead">Service Virtualization
                 <ProgressBar now={85} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
-                <p className="lead">Test-Driven Development
+                <p className="lead">Platform Automation
                   <ProgressBar now={80} style={{width:'490px', backgroundColor:'white'}}/>
                   </p>
-                <p className="lead">SQL
-                <ProgressBar now={75} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">Docker
+                <ProgressBar now={85} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
-                <p className="lead">React
-                <ProgressBar now={50} style={{width:'490px', backgroundColor:'white'}}/>
+                <p className="lead">Kubernetes
+                <ProgressBar now={70} style={{width:'490px', backgroundColor:'white'}}/>
+                </p>
+                <p className="lead">Cloud Computing(GCP)
+                  <ProgressBar now={65} style={{width:'490px', backgroundColor:'white'}}/>
                 </p>
               </div>
               </div>
@@ -79,7 +85,7 @@ return (
                 <br/>
                 <div className="row" style={divStyle}>
                 <div className="col text-center">
-                <p className="lead text-center">Goal Setting</p>
+                <p className="lead text-center">Leadership</p>
                 <img src="https://img.icons8.com/ios/75/000000/goal.png"/>
                 </div>
                 <div className="col text-center">

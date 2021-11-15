@@ -1,13 +1,11 @@
 import React, { useState, useEffect, Profiler } from "react";
 import Carousel from 'react-bootstrap/Carousel'
-import Service from "../../editable-stuff/service.jpg"
-import Culture from "../../editable-stuff/culture.jpg"
-import Committee from "../../editable-stuff/committee.jpg"
-import Park from "../../editable-stuff/park.jpg"
-import Zilker from "../../editable-stuff/zilker.jpg"
-import Retreat from "../../editable-stuff/retreat.jpg"
-import Sec from "../../editable-stuff/sec.jpg"
-import Custodians from "../../editable-stuff/custodians.jpg"
+import pic2 from "../../editable-stuff/images/google-kelsey.jpg"
+import pic3 from "../../editable-stuff/images/presentation.jpg"
+import pic4 from "../../editable-stuff/images/Unconf.jpg"
+import pic5 from "../../editable-stuff/images/withAZ.jpg"
+
+
 
 const Leadership = () => {
     return (
@@ -23,36 +21,21 @@ const Leadership = () => {
                 <div className="row"> 
                 <div className="col d-lg-inline align-self-center">
                   <p className="lead text-left">
-                      Throughout my college career, I've been extremely grateful to have opportunities to lead my peers
-                      and make an impact on the Austin community. In my role as the <b>Vice President of the 
-                      Student Engineering Council</b>, I cultivated a culture of 
-                      inclusivity, collaboration, and ambition through leading new-member recruitment and 
-                      community building events.
-                      Prior to that position, I led service intiatives
-                      that contributed 28,664 meals to the Central Texas Food Bank and over $3,000 to the
-                      SAFE Alliance in my position as the <b>Service Director of the Student Engineering Council</b>.
-                      Outside of these roles, I worked to level the playing field in STEM by mentoring and teaching children
-                      of lower socioeconomic status through my role as a <b>Code Orange Mentor</b>.
+                      Throughout my career, I've been extremely grateful to have opportunities to lead my peers
+                      and make an impact on the community. During my role in <b>Wipro</b>, I cultivated a culture of
+                      inclusivity, collaboration, and ambition through leading new-member and helping them grow with mentoring
+                      and different community building events. I have organized and delivered different technolgy training on
+                      niche skills. Apart from work I have done lot of cultural events related to socail causes like food wastage
+                      awareness.
+                      Currently, I in <b>Cognizant</b> I am leading a community where I help them set there goals and guide tham on
+                      how to accomplish them. Organizing different communiyt event which include tech conference and community get
+                      together to share the knowledge across populace.
                  </p>  
               </div>
               
                 <div className="col d-lg-inline align-self-center">
                 
                 <Carousel>
-                    <Carousel.Item>
-                {/* <div className="col d-none d-lg-inline align-self-center"> */}
-                  <img
-                    className="rounded"
-                    src={Culture}
-                    alt="culture"
-                    width="615"
-                    height="450"
-                  /> 
-                  {/* <Carousel.Caption>
-                    <h2>Student Engineering Council Vice President</h2>
-                    <h5>Cultivated an organizational culture of inclusivity, collaboration, and ambition.</h5>
-                    </Carousel.Caption> */}
-                  </Carousel.Item>
                 {/* </div>
                 </div>
                 <div className="row"> 
@@ -60,8 +43,8 @@ const Leadership = () => {
                 <Carousel.Item>
                   <img
                     className="rounded"
-                    src={Service}
-                    alt="service"
+                    src={pic2}
+                    alt="workshop"
                     width="615"
                     height="450"
                   /> 
@@ -88,17 +71,17 @@ const Leadership = () => {
                 <Carousel.Item>
                   <img
                     className="rounded"
-                    src={Sec}
-                    alt="SEC"
-                    width="615"
-                    height="450"
+                    src={pic3}
+                    alt="presentation"
+                    width="600"
+                    height="400"
                   /> 
                   </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="rounded"
-                    src={Zilker}
-                    alt="zilker"
+                    src={pic4}
+                    alt="conference"
                     width="615"
                     height="450"
                   /> 
@@ -106,35 +89,8 @@ const Leadership = () => {
                   <Carousel.Item>
                   <img
                     className="rounded"
-                    src={Custodians}
-                    alt="custodialappreciation"
-                    width="615"
-                    height="450"
-                  /> 
-                  </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="rounded"
-                    src={Committee}
-                    alt="committee"
-                    width="615"
-                    height="450"
-                  /> 
-                  </Carousel.Item>
-                  <Carousel.Item>
-                  <img
-                    className="rounded"
-                    src={Park}
-                    alt="volunteer"
-                    width="615"
-                    height="450"
-                  /> 
-                  </Carousel.Item>
-                  <Carousel.Item>
-                  <img
-                    className="rounded"
-                    src={Retreat}
-                    alt="family"
+                    src={pic5}
+                    alt="leadership"
                     width="615"
                     height="450"
                   /> 

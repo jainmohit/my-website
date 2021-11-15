@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Profiler } from "react";
-import Boeing from "../../editable-stuff/boeing.jpg";
-import Dell from "../../editable-stuff/dell-logo.jpg"
+import Cognizant from "../../editable-stuff/images/cognizant.jpg";
+import Wipro from "../../editable-stuff/images/wipro.jpg"
 const divStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -18,34 +18,34 @@ return (
                 <div className="col text-center" >
                     <img
                         // className="border border-secondary rounded-circle"
-                        src={Dell}
-                        alt="dell technologies logo"
-                        width="420"
-                        height="70"
+                        src={Wipro}
+                        alt="wipro technologies logo"
+                        width="200"
+                        height="200"
                     />
                     <br/>
                     <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
-                        Software Engineer Intern  
+                         Senior Consultant (Testing/DevOps)
                         <br/>
-                        June - July 2020
+                        Feb 2011 - Feb 2020
                     </p>
                     {/* <h3>Dell Technologies</h3> */}
                 </div>
                 <div className="col text-center">
                     <img
                         // className="border border-secondary rounded-circle"
-                        src={Boeing}
-                        alt="boeing logo"
-                        width="300"
-                        height="80"
+                        src={Cognizant}
+                        alt="Cognizant logo"
+                        width="200"
+                        height="200"
                     />
                     <br/>
                     <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
-                        Software Engineer Intern  
+                       Manger - (Testing/DevOps)
                         <br/>
-                        May - August 2019
+                        Feb 2020 - till date
                     </p>
                     {/* <h3>Boeing</h3> */}
                 </div>
