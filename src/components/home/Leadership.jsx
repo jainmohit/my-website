@@ -45,8 +45,8 @@ const Leadership = () => {
                     className="rounded"
                     src={pic2}
                     alt="workshop"
-                    width="615"
-                    height="450"
+                    width="600"
+                    height="400"
                   /> 
                   {/* <Carousel.Caption>
                 <h2>Student Engineering Council Service Director</h2>
