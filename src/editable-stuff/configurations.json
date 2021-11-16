@@ -1,7 +1,7 @@
 {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
-  "gradientColors": "#E73C7E, #23A6D5, #23D5AB, #893FA6",
+  "gradientColors": "#E73C7E, #23A6D5, #23D5AB, #893FA6 #09792d #790959",
   "FirstName": "Anurag",
   "MiddleName": "",
   "LastName": "Vaidhya",
@@ -22,7 +22,7 @@
     {
       "id": 2,
       "image": "fa-instagram",
-      "url": "https://www.instagram.com/ana_ashhh/",
+      "url": "https://www.instagram.com/anuuu89/",
       "style": "socialicons"
     },
     {

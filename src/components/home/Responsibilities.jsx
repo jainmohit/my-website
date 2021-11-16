@@ -14,7 +14,7 @@ const Leadership = () => {
                 <br/>
                 <div className="row"> 
                 <div className="col d-lg-inline align-self-center">
-                  <p className="lead text-center">
+                  <p className="lead text-left">
                     <p>&#9642; Experience in creating testing and test automation strategy on the program/project level.</p>
                     <p>&#9642; Experience in automating the testing scenarios for UI and API layers.</p>
                     <p>&#9642; Experience in designing and development of automation testing frameworks.</p>
