@@ -1,19 +1,13 @@
 import React, { useState, useEffect, Profiler } from "react";
-import Carousel from 'react-bootstrap/Carousel'
-import pic2 from "../../editable-stuff/asset/images/google-kelsey.jpg"
-import pic3 from "../../editable-stuff/asset/images/presentation.jpg"
-import pic4 from "../../editable-stuff/asset/images/Unconf.jpg"
-import pic5 from "../../editable-stuff/asset/images/withAZ.jpg"
-
 
 
 const Leadership = () => {
     return (
-        <div id="leadership" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'white'}}>
+        <div id="responsibilities" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'white'}}>
           <div className="container container-fluid">
             <div className="row"> 
                 <div className="col d-lg-inline align-self-center">
-                <h1 className="display-4 mb-3 text-center">Leadership</h1>
+                <h1 className="display-4 mb-3 text-center"><b>Responsibilities</b></h1>
                 {/* <p className="lead text-center" style={{fontSize:'22px'}}>
                     I empower people to acheive their goals. And I absolutely love it.
                 </p><br/><br/> */}
@@ -21,16 +15,22 @@ const Leadership = () => {
                 <div className="row"> 
                 <div className="col d-lg-inline align-self-center">
                   <p className="lead text-center">
-                      Throughout my career, I've been extremely grateful to have opportunities to lead my peers
-                      and make an impact on the community. During my role in <b>Wipro</b>, I cultivated a culture of
-                      inclusivity, collaboration, and ambition through leading new-member and helping them grow with mentoring
-                      and different community building events. I have organized and delivered different technolgy training on
-                      niche skills. Apart from work I have done lot of cultural events related to socail causes like food wastage
-                      awareness.
-                      Currently, I in <b>Cognizant</b> I am leading a community where I help them set there goals and guide tham on
-                      how to accomplish them. Organizing different communiyt event which include tech conference and community get
-                      together to share the knowledge across populace.
-                 </p>  
+                    <p>&#9642; Experience in creating testing and test automation strategy on the program/project level.</p>
+                    <p>&#9642; Experience in automating the testing scenarios for UI and API layers.</p>
+                    <p>&#9642; Experience in designing and development of automation testing frameworks.</p>
+                    <p>&#9642; Experience in implementing and performing shift left testing by using different Service Virtualization tools and DevOps tools.</p>
+                    <p>&#9642; Experience in doing build automation, deployment automation.</p>
+                    <p>&#9642; Experience in implementing the strategy around containerizing the application and best practices around it.</p>
+                    <p>&#9642; Experience in building CI/CD automation pipeline using different tools and scripting.</p>
+                    <p>&#9642; Hands on experience in creating and managing cloud infrastructure using Infrastructure as a Code like Terraform.</p>
+                    <p>&#9642; Hands on experience in designing cloud architecture and getting it endorsed by security.</p>
+                    <p>&#9642; Hands on experience on deployment platform/container orchestration system like Kubernetes and OpenShift.</p>
+                    <p>&#9642; Experience in handling teams and providing them guidance and mentor them.</p>
+                    <p>&#9642; Experience in making and finalizing GTM strategy for different products and solutions.</p>
+                    <p>&#9642; Experience in providing consultation to customer for testing, SV and DevOps.</p>
+                    <p>&#9642; Experience in requirements gathering, scope analysis and Coordination with the different teams.</p>
+                    <p>&#9642; Designing the DevOps Maturity Model for the organizations.</p>
+                  </p>
               </div>
               
         {/*   <div className="col d-lg-inline align-self-center">

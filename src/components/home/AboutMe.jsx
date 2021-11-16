@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Profiler } from "react";
 import axios from "axios";
-import Pdf from "../../editable-stuff/Resume/Anurag_Vaidhya_2021.pdf";
-import Profile from "../../editable-stuff/images/profile.jpg"
+import Pdf from "../../editable-stuff/asset/Resume/Anurag_Vaidhya_2021.pdf";
+import Profile from "../../editable-stuff/asset/images/profile.jpg"
 import {Helmet} from "react-helmet";
 
 import {
@@ -62,7 +62,7 @@ const AboutMe = () => {
               />
             </div>
             <div className="col d-lg-inline align-self-center">
-            <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+            <h1 className="display-4 mb-5 text-center"><b>{aboutHeading}</b></h1>
             <p className="lead text-center">{aboutDescription}</p><br/>
             {resumeURL && (
               <p className="lead text-center">

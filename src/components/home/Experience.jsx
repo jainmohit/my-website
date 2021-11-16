@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Profiler } from "react";
-import Cognizant from "../../editable-stuff/images/cognizant.jpg";
-import Wipro from "../../editable-stuff/images/wipro.jpg"
+import Cognizant from "../../editable-stuff/asset/images/cognizant.jpg";
+import Wipro from "../../editable-stuff/asset/images/wipro.jpg"
 const divStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -12,7 +12,7 @@ return (
       <div className="container container-fluid">
         <div className="row">
             <div className="col d-lg-inline align-self-center">
-            <h1 className="display-4 mb-5 text-center">Experience</h1>
+            <h1 className="display-4 mb-5 text-center"><b>Experience</b></h1>
             {/* <h1 className="display-4 pb-5">Experience</h1> */}
             <div className="row" style={divStyle}>
                 <div className="col text-center" >

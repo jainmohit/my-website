@@ -18,6 +18,7 @@ import Leadership from "./components/home/Leadership";
 import Experience from "./components/home/Experience";
 import Interests from "./components/home/Interests";
 import Skills from "./components/home/Skills";
+import Responsibilities from "./components/home/Responsibilities";
 
 const Home = () => {
   return (
@@ -25,8 +26,9 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Experience />
-      <Project />
+      <Responsibilities />
       <Leadership />
+      <Project />
       <Skills />
       <Interests />
     </Fragment>

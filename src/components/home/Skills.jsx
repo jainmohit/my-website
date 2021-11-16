@@ -2,6 +2,14 @@ import React, { useState, useEffect, Profiler } from "react";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import Profile from "../../editable-stuff/asset/images/profile.jpg";
+import communication from "../../editable-stuff/asset/img/communication.png"
+import decisiveness from "../../editable-stuff/asset/img/decisiveness.png"
+import leadership from "../../editable-stuff/asset/img/leadership.png"
+import positivity from "../../editable-stuff/asset/img/positivity.png"
+import problemsolving from "../../editable-stuff/asset/img/problem-solving.png"
+import collaboration from "../../editable-stuff/asset/img/collaboration.png"
+
 const divStyle = {
   display: 'flex',
   flexDirection: 'row',
@@ -71,30 +79,60 @@ return (
                 <div className="row" style={divStyle}>
                 <div className="col text-center">
                 <p className="lead text-center">Collaboration</p>
-                <img src="https://img.icons8.com/ios/75/000000/collaboration-female-male.png"/>
+                  <img
+                      src={collaboration}
+                      alt="collaboration"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 <div className="col text-center">
                 <p className="lead text-center">Problem Solving</p>
-                <img src="https://img.icons8.com/ios/75/000000/critical-thinking.png"/>
+                  <img
+                      src={problemsolving}
+                      alt="problemsolving"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 <div className="col text-center">
                 <p className="lead text-center">Positivity</p>
-                <img src="https://img.icons8.com/ios/75/000000/happy-cloud.png"/>
+                  <img
+                      src={positivity}
+                      alt="positivity"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 </div>
                 <br/>
                 <div className="row" style={divStyle}>
                 <div className="col text-center">
                 <p className="lead text-center">Leadership</p>
-                <img src="https://img.icons8.com/ios/75/000000/goal.png"/>
+                  <img
+                      src={leadership}
+                      alt="leadership"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 <div className="col text-center">
-                <p className="lead text-center">Organization</p>
-                <img src="https://img.icons8.com/ios/75/000000/to-do.png"/>
+                <p className="lead text-center">Decisiveness</p>
+                  <img
+                      src={decisiveness}
+                      alt="decisiveness"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 <div className="col text-center">
-                <p className="lead text-center">Empathy</p>
-                <img src="https://img.icons8.com/ios/75/000000/trust.png"/>
+                <p className="lead text-center">Communication</p>
+                  <img
+                      src={communication}
+                      alt="communication"
+                      width="75"
+                      height="75"
+                  />
                 </div>
                 </div>
                 </div>

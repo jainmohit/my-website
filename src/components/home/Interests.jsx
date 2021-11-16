@@ -1,10 +1,5 @@
 import React, { useState, useEffect, Profiler } from "react";
 import {Col, Row, Card, CardDeck, Button} from "react-bootstrap";
-/*import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Card from "react-bootstrap/Card";
-import CardDeck from 'react-bootstrap/CardDeck'
-import Button from 'react-bootstrap/Button'*/
 import {
     aboutHeading,
     aboutDescription,

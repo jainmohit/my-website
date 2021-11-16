@@ -44,16 +44,6 @@ const Navbar = (props) => {
               <b>About</b>
             </a>
           </li>
-          {/* <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={Pdf}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <b>Resume</b>
-            </a>
-          </li> */}
           <li className="nav-item">
             <a
               className="nav-link lead"
@@ -64,10 +54,10 @@ const Navbar = (props) => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+                className="nav-link lead"
+                href={process.env.PUBLIC_URL + "/#responsibilities"}
             >
-              <b>Projects</b>
+              <b>Responsibilities</b>
             </a>
           </li>
           <li className="nav-item">
@@ -76,6 +66,14 @@ const Navbar = (props) => {
               href={process.env.PUBLIC_URL + "/#leadership"}
             >
               <b>Leadership</b>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+                className="nav-link lead"
+                href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              <b>Projects</b>
             </a>
           </li>
           <li className="nav-item">
