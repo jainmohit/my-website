@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Profiler } from "react";
 import Cognizant from "../../editable-stuff/asset/images/cognizant.jpg";
-import Wipro from "../../editable-stuff/asset/images/wipro.jpg"
+import Wipro from "../../editable-stuff/asset/images/wipro.jpg";
+import Accenture from "../../editable-stuff/asset/images/accenture.jpg"
 const divStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -43,9 +44,26 @@ return (
                     <br/>
                     <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
-                       Manger - (Testing/DevOps)
+                      Senior Engineer - Cloud/DevOps/Testing
                         <br/>
-                        Feb 2020 - till date
+                        Feb 2020 - June 2022
+                    </p>
+                    {/* <h3>Boeing</h3> */}
+                </div>
+                <div className="col text-center">
+                    <img
+                        // className="border border-secondary rounded-circle"
+                        src={Accenture}
+                        alt="Accenture logo"
+                        width="200"
+                        height="200"
+                    />
+                    <br/>
+                    <br/>
+                    <p className="lead text-center" style={{fontSize:'22px'}}>
+                       Principal Engineer - Cloud/DevOps/APIDesign
+                        <br/>
+                        Feb 2020 - June 2022
                     </p>
                     {/* <h3>Boeing</h3> */}
                 </div>
