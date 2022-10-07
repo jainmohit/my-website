@@ -1,15 +1,15 @@
 <p align="center">
-  <h1 align="center">Anurag Vaidhya's Personal Website ✨</h1>
+  <h1 align="center">Mohit Jain's Personal Website ✨</h1>
   <p align="center">
-    The personal website/portfolio of Anurag Vaidhya, hosted with GitHub Pages using custom domain. Built using React and Bootstrap. Site URL / Demo:
-    <a href="https://anuragvaidhya.com">anuragvaidhya.com</a>
+    The personal website/portfolio of Mohit Jain hosted with GitHub Pages using custom domain. Built using React and Bootstrap. Site URL / Demo:
+    <a href="https://jainmohit.co">jainmohit.co</a>
     <br />
   </p>
 </p>
 
 <!-- PROJECT LOGO -->
 
-[![Site preview](/public/social-image.png)](https://anuu1989.github.io/)
+[![Site preview](/public/social-image.png)](https://jainmohit.github.io/)
 
 ## Technology Stack 
 
