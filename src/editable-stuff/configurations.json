@@ -2,45 +2,45 @@
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
   "gradientColors": "#E73C7E, #23A6D5, #23D5AB, #893FA6 #09792d #790959",
-  "FirstName": "Anurag",
+  "FirstName": "Mohit",
   "MiddleName": "",
-  "LastName": "Vaidhya",
+  "LastName": "Jain",
   "devDesc": "Passionate about changing the world with technology and constant learning.",
   "icons": [
     {
       "id": 0,
       "image": "fa-github",
-      "url": "https://github.com/anuu1989",
+      "url": "https://github.com/jainmohit",
       "style": "socialicons"
     },
     {
       "id": 1,
       "image": "fa-facebook",
-      "url": "https://www.facebook.com/anurag.vaidhya",
+      "url": "https://www.facebook.com/mohitjain.rocking",
       "style": "socialicons"
     },
     {
       "id": 2,
       "image": "fa-instagram",
-      "url": "https://www.instagram.com/anuuu89/",
+      "url": "https://www.instagram.com/moheetjain85/",
       "style": "socialicons"
     },
     {
       "id": 3,
       "image": "fa-linkedin",
-      "url": "https://www.linkedin.com/in/anurag-vaidhya-47b93222",
+      "url": "https://www.linkedin.com/in/jainmoheet",
       "style": "socialicons"
     }
   ],
   "aboutHeading": "About Me",
   "showInstaProfilePic": false,
   "instaLink": "https://www.instagram.com/",
-  "instaUsername": "anuuu89",
+  "instaUsername": "moheetjain85",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "Hello! My name is Anurag and I have total of 10 years of experience in IT industry. I started my career with Wipro Limited where I gained experience working in Testing and DevOps. Currently, I am working with Cognizant Technology Solution as a Manager for Testing and DevOps. My aim is to share my knowledge and learnings and help the community grow.",
+  "aboutDescription": "Hello! My name is Mohit and I have total of 10 years of experience in IT industry. I started my career with Wipro Limited where I gained experience working in Testing and DevOps. Currently, I am working with Cognizant Technology Solution as a Manager for Testing and DevOps. My aim is to share my knowledge and learnings and help the community grow.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "anuu1989",
+  "gitHubUsername": "jainmohit",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
   "projectsLength": 2,
   "showNavigationbar": true,
