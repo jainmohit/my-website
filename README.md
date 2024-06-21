@@ -2,7 +2,7 @@
   <h1 align="center">Mohit Jain's Personal Website ✨</h1>
   <p align="center">
     The personal website/portfolio of Mohit Jain hosted with GitHub Pages using custom domain. Built using React and Bootstrap. Site URL / Demo:
-    <a href="https://jainmohit.co">jainmohit.co</a>
+    <a href="https://www.mohit-jain.au">www.mohit-jain.au</a>
     <br />
   </p>
 </p>
