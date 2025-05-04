@@ -9,7 +9,6 @@
 
 <!-- PROJECT LOGO -->
 
-[![Site preview](/public/social-image.png)](https://jainmohit.github.io/)
 
 ## Technology Stack 
 
